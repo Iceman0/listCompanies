@@ -1,0 +1,179 @@
+{
+  "companies": [
+    {
+      "id": "3",
+      "createdAt": "2020-06-13T11:00:59.795Z",
+      "profitCenter": true,
+      "name": "Yundt - Wisoky",
+      "structure": 1
+    },
+    {
+      "id": "4",
+      "createdAt": "2019-11-27T23:19:03.975Z",
+      "profitCenter": false,
+      "name": "Jenkins, Kuhn and Fritsch",
+      "structure": 2
+    },
+    {
+      "id": "5",
+      "createdAt": "2019-12-15T00:41:41.464Z",
+      "profitCenter": false,
+      "name": "Waters Group",
+      "structure": 1
+    },
+    {
+      "id": "6",
+      "createdAt": "2020-06-22T02:26:01.437Z",
+      "profitCenter": false,
+      "name": "Stiedemann, Bechtelar and Runte",
+      "structure": 1
+    },
+    {
+      "id": "7",
+      "createdAt": "2019-12-05T20:27:00.791Z",
+      "profitCenter": false,
+      "name": "Wintheiser, Murazik and Strosin",
+      "structure": 1
+    },
+    {
+      "id": "8",
+      "createdAt": "2020-05-02T05:42:47.776Z",
+      "profitCenter": false,
+      "name": "Berge, Schinner and Ortiz",
+      "structure": 1
+    },
+    {
+      "id": "9",
+      "createdAt": "2020-06-25T16:38:47.204Z",
+      "profitCenter": false,
+      "name": "Ullrich Group",
+      "structure": 1
+    },
+    {
+      "id": "10",
+      "createdAt": "2020-05-22T08:25:25.484Z",
+      "profitCenter": false,
+      "name": "Schultz - Rempel",
+      "structure": 1
+    },
+    {
+      "id": "12",
+      "createdAt": "2020-03-22T07:31:13.849Z",
+      "profitCenter": true,
+      "name": "Douglas LLC",
+      "structure": 1
+    },
+    {
+      "id": "13",
+      "createdAt": "2019-12-11T17:04:02.007Z",
+      "profitCenter": false,
+      "name": "Gottlieb Inc",
+      "structure": 1
+    },
+    {
+      "id": "14",
+      "createdAt": "2019-10-22T07:12:30.647Z",
+      "profitCenter": false,
+      "name": "Gutkowski - Bartoletti",
+      "structure": 1
+    },
+    {
+      "id": "15",
+      "createdAt": "2020-05-15T08:51:58.320Z",
+      "profitCenter": false,
+      "name": "Langosh - Erdman",
+      "structure": 1
+    },
+    {
+      "id": "16",
+      "createdAt": "2020-08-05T21:46:47.187Z",
+      "profitCenter": false,
+      "name": "Labadie Group",
+      "structure": 1
+    },
+    {
+      "id": "17",
+      "createdAt": "2020-03-14T04:28:49.648Z",
+      "profitCenter": false,
+      "name": "McKenzie Group",
+      "structure": 1
+    },
+    {
+      "id": "18",
+      "createdAt": "2019-09-26T15:09:53.281Z",
+      "profitCenter": false,
+      "name": "Zulauf and Sons",
+      "structure": 1
+    },
+    {
+      "id": "19",
+      "createdAt": "2020-02-12T03:15:39.414Z",
+      "profitCenter": false,
+      "name": "Swaniawski - Funk",
+      "structure": 1
+    },
+    {
+      "id": "20",
+      "createdAt": "2020-03-28T11:47:22.812Z",
+      "profitCenter": false,
+      "name": "Bergstrom, Kuphal and Douglas",
+      "structure": 1
+    },
+    {
+      "id": "21",
+      "createdAt": "2019-09-30T18:03:04.158Z",
+      "profitCenter": false,
+      "name": "Hettinger - Torphy",
+      "structure": 1
+    },
+    {
+      "id": "22",
+      "createdAt": "2019-11-28T14:57:28.822Z",
+      "profitCenter": false,
+      "name": "Hackett, Barrows and Halvorson",
+      "structure": 1
+    },
+    {
+      "id": "23",
+      "createdAt": "2020-05-27T05:09:15.564Z",
+      "profitCenter": false,
+      "name": "Stokes - McLaughlin",
+      "structure": 1
+    },
+    {
+      "id": "24",
+      "createdAt": "2019-12-30T20:09:34.272Z",
+      "profitCenter": false,
+      "name": "Schoen - Walsh",
+      "structure": 1
+    },
+    {
+      "id": "25",
+      "createdAt": "2020-06-09T03:35:15.800Z",
+      "profitCenter": false,
+      "name": "Schoen Group",
+      "structure": 1
+    },
+    {
+      "id": "26",
+      "createdAt": "2020-07-05T12:08:47.238Z",
+      "profitCenter": false,
+      "name": "Leannon, Collier and Armstrong",
+      "structure": 1
+    },
+    {
+      "id": "27",
+      "createdAt": "2019-10-18T05:43:16.546Z",
+      "profitCenter": false,
+      "name": "Considine Inc",
+      "structure": 1
+    },
+    {
+      "id": "28",
+      "createdAt": "2020-04-03T13:01:01.243Z",
+      "profitCenter": false,
+      "name": "Simonis Group",
+      "structure": 1
+    }
+  ]
+}

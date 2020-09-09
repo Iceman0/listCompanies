@@ -1,29 +1,20 @@
-# README #
+**Дано**
+1. Таблица с компаниями с пагинацией и сортировкой по каждой колонке.
+2. API-server, запускаемый по `yarn server` 
 
-This README would normally document whatever steps are necessary to get your application up and running.
+**API:**
 
-### What is this repository for? ###
+1. GET /api/companies/ - получить все компании
+2. GET /api/companies/:id - получить компанию
+3. PATCH /api/companies/:id
+{
+“structure”: 2
+}
+-изменить структуру компании
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+**Задания**
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+1. Добавить фильтры для каждой колонки в таблице
+2. Поменять true / false на Да / нет в колонке Профит-центр.
+3. Изменить колонку “Название компании“, чтобы в ней находилась ссылка на view соответствующей компании, по которой будет отображать всплывающее окно с данными компании
+4. В view компании добавить возможность изменять структуру компании - ИП или ООО
