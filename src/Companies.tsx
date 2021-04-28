@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import MaterialTable from 'material-table';
 import fetch from 'cross-fetch';
+import View from "./View";
 
 interface Company {
   id: string;
@@ -28,42 +29,57 @@ export default function () {
   }, []);
 
   return (
-    <MaterialTable
-      data={companies}
-      columns={[
-        {
-          title: 'Название компании',
-          field: 'name',
-        },
-        {
-          title: 'Профит-центр',
-          field: 'profitCenter',
-        },
-        {
-          title: 'Дата создания',
-          type: 'date',
-          field: 'createdAt',
-        },
-      ]}
-      title="Компании"
-      options={{
-        initialPage: 0,
-        pageSize: 10,
-        actionsColumnIndex: -1,
-        search: false,
-        draggable: false,
-      }}
-      localization={{
-        pagination: {
-          labelRowsSelect: 'строк',
-        },
-        header: {
-          actions: '',
-        },
-        body: {
-          emptyDataSourceMessage: 'Нет результатов',
-        },
-      }}
-    />
+      <MaterialTable
+          data={companies}
+          columns={[
+            {
+              title: 'Название компании',
+              field: 'name',
+            },
+            {
+              title: 'Профит-центр',
+              field: 'profitCenter',
+              lookup: { true: 'Да', false: 'Нет' },
+              //customFilterAndSearch: (term, rowData) => rowData.profitCenter.toString().indexOf(term) > -1 //для поиска false
+            },
+            {
+              title: 'Дата создания',
+              type: 'date',
+              field: 'createdAt',
+            },
+          ]}
+          title="Компании"
+          options={{
+            filtering: true,
+            initialPage: 0,
+            pageSize: 10,
+            actionsColumnIndex: -1,
+            search: false,
+            draggable: false,
+          }}
+          localization={{
+            pagination: {
+              labelRowsSelect: 'строк',
+            },
+            header: {
+              actions: '',
+            },
+            body: {
+              emptyDataSourceMessage: 'Нет результатов',
+            },
+          }}
+          detailPanel={[
+            {
+              tooltip: 'Показать информцию о компании',
+              render: rowData => {
+                return (
+                    <View {...rowData}/>
+                )
+              },
+            }
+          ]}
+      />
   );
 }
+
+
